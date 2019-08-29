@@ -1,0 +1,239 @@
+/* tablet */
+@media(max-width:960px ){
+  header{
+    height:600px;
+  }
+
+  .title {
+    font-size: 30px;
+    padding-top: 120px;
+  }
+
+  .title_text{
+    font-size: 15px;
+  }
+
+  .sns{
+    top:530px;
+  }
+
+  .scroll a{
+    top:530px;
+  }
+
+  .my_title_two{
+    display: block;
+  }
+
+  .my_title{
+    display: none;
+  }
+
+  .about{
+    height:1000px;
+  }
+
+  .about_intro {
+    display: block;
+  }
+
+  .image_size{
+    margin: 0 auto;
+  }
+
+  .name,.intro{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header_flex{
+    display: none;
+  }
+
+  .wrapper{
+    display: block;
+  }
+
+  .skill{
+    width:80%;
+  }
+
+  .service_detail{
+    flex-direction: column;
+  }
+
+  .service{
+    height:1500px;
+  }
+
+  .service_four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .service_create,.service_coating,.service_responsive,.service_wordpress{
+    width:100%;
+    overflow: hidden;
+  }
+
+  .work{
+    height:auto;
+  }
+
+  .read_more a{
+    margin-bottom: 30px;
+  }
+
+  table{
+    font-size: 14px;
+  }
+
+  .btn-open_one{
+    width:90%;
+  }
+
+  .btn-open_one:hover:after{
+    height: 300%;
+    opacity: 1;
+  }
+
+  .btn-open_one:active:after{
+    height: 400%;
+    opacity: 1;
+  }
+
+  button:hover:after{
+    height: 300%;
+    opacity: 1;
+  }
+
+  button:active:after{
+    height: 400%;
+    opacity: 1;
+  }
+
+  .price{
+    background: url('img/nick-nice-549610-unsplash.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+  }
+
+  .gray::before {
+  	content: "";
+  	z-index: 2;
+  	display: block;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 0%;
+  	height: 100%;
+  	background: rgba(0,0,0,0.6);
+  	transition: width 1s;
+  }
+
+  .gray::after {
+    content: "";
+    z-index: 2;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    transition: width 1s;
+  }
+
+  #slider{
+    width:80%;
+    height:0;
+    padding:40% 0 0;
+  	max-width: 800px;
+  	margin: 0 auto;
+  	position: relative;
+  }
+}
+/* sp */
+
+@media(max-width:640px ){
+  header{
+    height:500px;
+  }
+
+  .title {
+    font-size: 18px;
+    padding-top: 80px;
+  }
+
+
+  .title_text_two{
+    display: block
+  }
+
+  .title_text{
+    display: none;
+  }
+
+  .sns{
+    top:450px;
+    font-size: 20px;
+  }
+
+  .scroll a{
+    top:420px;
+  }
+
+  .about{
+    height:1100px;
+  }
+
+  .skill{
+    width:95%;
+  }
+
+  .skill img{
+    width:70px;
+  }
+
+.service{
+  height:1450px;
+}
+
+  .gray::before{
+    background: linear-gradient(-80deg,transparent 50%, rgba(0,0,0,0.5) 50%);
+  }
+
+  .gray::after{
+    background: linear-gradient(-80deg,rgba(0,0,0,0.5) 50%, transparent 50%);
+  }
+
+  table{
+    font-size: 12px;
+  }
+
+  table th{
+    width:75%;
+  }
+
+  table td{
+    width:25%;
+  }
+
+  .formrun{
+    width:95%;
+    margin: 0 auto;
+  }
+
+  .gray::before {
+  	background: linear-gradient(-90deg,transparent 50%, rgba(0,0,0,0.5) 50%);
+  }
+
+  .gray::after {
+  	background: linear-gradient(-90deg,rgba(0,0,0,0.5) 50%, transparent 50%);
+  }
+}
+
+}

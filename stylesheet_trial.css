@@ -1,0 +1,273 @@
+li{
+  list-style: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #000000;
+}
+
+h1,h2,h3,p{
+  margin: 0!important;
+}
+
+.wrap{
+  max-width: 960px;
+  margin:0 auto;
+  padding-top: 100px;
+}
+
+.mt{
+  margin-top:30px;
+}
+
+.scroll_btn{
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  z-index: 100;
+  width:80px;
+  height:80px;
+  text-align: center;
+  line-height: 80px;
+  border: 4px double white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: rgba(255,255,255,0.7);
+}
+
+.scroll_btn a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+/* header */
+
+header{
+  width:100%;
+  height:500px;
+  background-image: url('img/asphalt-bitumen-black-and-white-1038935.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.trial_ttl{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding-top: 80px;
+  text-align: center;
+  color:white;
+  font-size:200px;
+  letter-spacing:5px;
+}
+
+.trial_text{
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  color:white;
+  font-size:25px;
+}
+
+.trial_message{
+  height:100px;
+  background-color: #696969;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color:white;
+  text-align:center;
+  font-size:35px;
+  letter-spacing:5px;
+  line-height:100px;
+}
+
+.trial_message_two{
+  display:none;
+  height:100px;
+  background-color: #696969;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color:white;
+  text-align:center;
+  font-size:25px;
+  letter-spacing:5px;
+  padding-top: 20px;
+}
+
+/* main */
+main{
+  width:100%;
+  height:auto;
+  background-color:rgba(0,0,0,1);
+}
+
+.description_ttl{
+  width:100%;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  color:white;
+  font-size:25px;
+  text-align:center;
+  font-weight:bold;
+  overflow: hidden;
+}
+
+.description_ttl span{
+  position:relative;
+  padding:0 20px;
+}
+
+.description_ttl span:before{
+  content:"";
+  border-top:6px dotted #20b2aa;
+  width:300%;
+  position:absolute;
+  top:50%;
+  right:100%;
+  transform:translateY(-50%);
+}
+
+.description_ttl span:after{
+  content:"";
+  border-top:6px dotted #20b2aa;
+  width:300%;
+  position:absolute;
+  top:50%;
+  left:100%;
+  transform:translateY(-50%);
+}
+
+.description_mesage{
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  padding-top:50px;
+  color:white;
+}
+
+.description_mesage p{
+  line-height:50px;
+}
+
+.description_list{
+  padding:8px 10px 20px 20px;
+  border-radius:20px;
+  background-color: #696969;
+}
+
+.description_list li{
+  position:relative;
+  padding-top: 20px;
+}
+
+.description_list li:before{
+  font-family: "Font Awesome 5 Free";
+  font-size:1.3em;
+  content: "\f00c";
+  position: absolute;
+  font-weight: 900;
+  left : -1.8em; /*左端からのアイコンまで*/
+  color: #20b2aa; /*アイ ン色*/
+}
+
+.flow_ttl{
+  width:100%;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  color:white;
+  font-size:25px;
+  text-align:center;
+  font-weight:bold;
+  overflow: hidden;
+}
+
+.flow_ttl span{
+  position:relative;
+  padding:0 20px;
+}
+
+.flow_ttl span:before{
+  content:"";
+  border-top:6px dotted #20b2aa;
+  width:300%;
+  position:absolute;
+  top:50%;
+  right:100%;
+  transform:translateY(-50%);
+}
+
+.flow_ttl span:after{
+  content:"";
+  border-top:6px dotted #20b2aa;
+  width:300%;
+  position:absolute;
+  top:50%;
+  left:100%;
+  transform:translateY(-50%);
+}
+
+/* flow */
+
+.flow_list{
+  width:80%;
+  margin: 0 auto;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  color:white;
+  padding:50px 0;
+}
+
+.flow_name{
+  position:relative;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.flow_text,.flow_text_long{
+  position:relative;
+  padding-top: 40px;
+}
+
+.flow_name:before{
+  font-family: "Font Awesome 5 Free";
+  font-size:1.3em;
+  content: "\f111";
+  position: absolute;
+  font-weight: 900;
+  left : -3em; /*左端からのアイコンまで*/
+  color: #20b2aa; /*アイ ン色*/
+  margin-top: -5px;
+  background-color: white;
+  padding:10px;
+  border-radius: 50%;
+}
+
+.flow_text:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-5.75em;
+  background-color: white;
+  height:104px;
+  width:10px;
+}
+
+.flow_text_long:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-5.75em;
+  background-color: white;
+  height:130px;
+  width:10px;
+}
+
+footer{
+  width:100%;
+  height:60px;
+  color:white;
+  background-color: #808080;
+}
+
+footer p{
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
